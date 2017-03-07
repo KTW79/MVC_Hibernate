@@ -7,6 +7,7 @@ public enum Category {
     ROMANTIC,
     ACTION,
     HORROR,
+    DOCUMENT,
     OTHER
 
 }
