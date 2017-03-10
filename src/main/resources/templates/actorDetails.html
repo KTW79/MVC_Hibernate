@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Przykład Tymeleaf</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<h2 th:text="'Imię i nazwisko: '  + ${actor.name} + ${actor.surname}"></h2>
+
+<p th:text="'Data urodzenia: ' + ${#dates.format(actor.dateOfBirth, 'dd.MM.yyyy')}"></p>
+
+
+
+</body>
+</html>
